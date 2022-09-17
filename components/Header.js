@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from 'next/link'
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -56,19 +56,28 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Genesis Investment
                 </a>
               </li>
               <li>
+                <Link href= "/team">
                 <a
-                  href="/"
+                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Team
+                </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
+              <a
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Contact Us
                 </a>
+                </Link>
               </li>
             </ul>
           </nav>
