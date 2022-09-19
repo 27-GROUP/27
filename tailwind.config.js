@@ -1,8 +1,6 @@
 const isProd = process.env.NODE_ENV === 'production'
 // Use the CDN in production and localhost for development.
 module.exports = {
-
-  future: { webpack5: true },
   assetPrefix: isProd ? 'https://cdn.statically.io/gh/Mamadou2727/27group.github.io/gh-pages/' : '',
   webpack(config) {
     config.module.rules.push({
