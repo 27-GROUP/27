@@ -1,11 +1,10 @@
 {
-  "homepage": "https://mamadou2727.github.io/27group.github.io/",
   "name": "nine4-2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "deploy": "gh-pages -d build",
+    "export": "next export",
     "build": "next build",
     "start": "next start"
   },
