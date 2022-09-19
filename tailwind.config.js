@@ -26,7 +26,7 @@ module.exports = {
 ],
   plugins: [require("daisyui")],
   purge: ["./components/**/*.js", "./pages/**/*.js"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: true, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
