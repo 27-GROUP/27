@@ -1,5 +1,6 @@
 import M_section from "./m_section";
 import V_section from "./v_section";
+import Link from 'next/Link'
 export default function Main() {
   return (
     <section className="text-gray-600 body-font">
@@ -12,12 +13,13 @@ export default function Main() {
             The holding company of RITech and Genesis Investment.
           </p>
           <div className="flex justify-center">
-            <a
-              className="inline-flex items-center px-5 py-3 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
-              href="https://github.com/r1/nine4-2/"
-            >
-              <span className="justify-center">Contact Us</span>
-            </a>
+            <Link href="/contact">
+              <a
+                className="inline-flex items-center px-5 py-3 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
+              >
+                <span className="justify-center">Contact Us</span>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
