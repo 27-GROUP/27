@@ -1,8 +1,8 @@
 export default function V_section() {
-    return (
-      <div className="flex flex-col w-full lg:flex-row">
-        <div className="lg:flex-grow md:w-1/2 md:ml-15 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
-        <img  className="w-1000 md:ml-1 ml-24 rounded-xl" 
+  return (
+    <div className="flex flex-col w-full lg:flex-row">
+      <div className="lg:flex-grow md:w-1/2 md:ml-15 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
+        <img className="w-1000 md:ml-1 ml-24 rounded-xl"
           src="/images/vision.jpeg"
         />
       </div>
@@ -15,9 +15,8 @@ export default function V_section() {
           Impact positively on African communities.
         </p>
       </div>
-      
-      </div>
-      
-      );
-    }
-    
+
+    </div>
+
+  );
+}

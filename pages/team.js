@@ -3,12 +3,12 @@ import Footer from "../components/Footer";
 import T_section from "../components/t_section";
 export default function Team() {
 
-    return(
+    return (
         <section className="text-black">
 
-        <Header />
-        <T_section />
-        <Footer />
+            <Header />
+            <T_section />
+            <Footer />
 
         </section>
     );

@@ -15,7 +15,13 @@ module.exports = {
     return config;
   },
 
-  
+  content: [
+    "./node_modules/flowbite/**/*.js"
+],
+
+  plugins: [
+    require('flowbite/plugin')
+],
   plugins: [require("daisyui")],
   purge: ["./components/**/*.js", "./pages/**/*.js"],
   darkMode: false, // or 'media' or 'class'

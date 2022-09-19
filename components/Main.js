@@ -34,8 +34,8 @@ export default function Main() {
               Join Us in Our Quest.
             </h1>
           </div>
-            <M_section />
-            <V_section />
+          <M_section />
+          <V_section />
         </div>
       </section>
 

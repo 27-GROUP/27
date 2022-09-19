@@ -12,7 +12,7 @@ export default function Header() {
             href="/"
             className="text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline"
           >
-          <img src='/images/27_group.png' width={200}/>
+            <img src='/images/27_group.png' width={200} />
           </a>
           <button
             className="text-white cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none "
@@ -62,21 +62,21 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <Link href= "/team">
-                <a
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Team
-                </a>
+                <Link href="/team">
+                  <a
+                    className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  >
+                    Team
+                  </a>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
-              <a
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Contact Us
-                </a>
+                  <a
+                    className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  >
+                    Contact Us
+                  </a>
                 </Link>
               </li>
             </ul>
