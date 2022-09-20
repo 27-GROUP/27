@@ -23,11 +23,8 @@
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.23.1",
     "@svgr/webpack": "^6.3.1",
     "file-loader": "^6.2.0"
-  },
-  "cacheDirectories": [
-    "node_modules/",
-    ".next/cache/"
-  ]
+  }
 }

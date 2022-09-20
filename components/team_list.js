@@ -32,6 +32,14 @@ const team_list = [
       "Founder, Board Member",
     website: "https://mamadouk.me",
   },
+  {
+    name: "Abdoulaye KEITA",
+    image: "/images/avatar.png",
+    experience: "Lieutnant  Malian Firefighter",
+    role:
+      "Advisor on security and robots reliablity on field",
+    website: "https://mamadouk.me",
+  },
 ];
 
 export default team_list;
