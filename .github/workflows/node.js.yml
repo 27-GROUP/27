@@ -26,8 +26,17 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build
+    - name: clean cache
+      run: npm cache clean --force
+    - name: install
+      run: npm ci
+    - name: npm install
+      run: npm install
+    - name: build
+      run: npm run build
+      env:
+         CI: false
+    
     
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
