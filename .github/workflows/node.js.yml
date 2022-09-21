@@ -26,8 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: yarn ci
-    - run: yarn build
+    - run: npm ci
+    - run: npm run build
     
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
