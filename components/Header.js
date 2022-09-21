@@ -1,5 +1,5 @@
 import React from "react";
-import Link from 'next/link'
+import NextLink from 'next/link'
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -62,22 +62,22 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <Link href="/team">
+                <NextLink href="/team">
                   <a
                     className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
                     Team
                   </a>
-                </Link>
+                </NextLink>
               </li>
               <li>
-                <Link href="/contact">
+                <NextLink href="/contact">
                   <a
                     className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
                     Contact Us
                   </a>
-                </Link>
+                </NextLink>
               </li>
             </ul>
           </nav>
