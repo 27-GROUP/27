@@ -14,7 +14,7 @@ const team_list = [
     experience: "Experienced Senior & Product Manager, Founder and Board President of RobotsMali",
     role:
       "Co-founder, Board member, Advisor on Technical related topics/areas and international relations",
-    website: "",
+    website: "https://www.linkedin.com/in/michael-leventhal-87239/",
   },
   {
     name: "Massa TRAORE",
