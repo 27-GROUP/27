@@ -10,7 +10,7 @@ const team_list = [
 
   {
     name: "Michael LEVENTHAL",
-    image: "/images/avatar.png",
+    image: "/images/michael_leventhal.jpeg",
     experience: "Experienced Senior & Product Manager, Founder and Board President of RobotsMali",
     role:
       "Co-founder, Board member, Advisor on Technical related topics/areas and international relations",
