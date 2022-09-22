@@ -1,7 +1,7 @@
 const team_list = [
   {
     name: "Dr. Assetou F. SAMAKE",
-    image: "/images/avatar.png",
+    image: "/images/assetou_foune_samake.jpeg",
     experience: "Former Malian Minister of Higher Education, Biology Lecturer",
     role:
       "Co-founder, Board member, Advisor on Business Sustainability and external relations",
