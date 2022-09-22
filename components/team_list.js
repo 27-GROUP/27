@@ -5,7 +5,7 @@ const team_list = [
     experience: "Former Malian Minister of Higher Education, Biology Lecturer",
     role:
       "Co-founder, Board member, Advisor on Business Sustainability and external relations",
-    website: "",
+    website: "https://fr.wikipedia.org/wiki/Ass%C3%A9tou_Foun%C3%A9_Samak%C3%A9_Migan",
   },
 
   {
